@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">Элина</string>
+    <string name="Приступить" translatable="false">Приступить</string>
+    <string name="Задание" translatable="false">Задание</string>
+    <string name="destroy_the_target" translatable="false">DESTROY THE TARGET!</string>
+    <string name="quest" translatable="false">Quest</string>
+    <string name="Алиме_задание" translatable="false">Цель избирательно прячется за границами экрана. Успейте нажать на неё вовремя, чтобы получить бонус к монетам в пятикратном размере!</string>
+    <string name="choose" translatable="false">CHOOSE</string>
+    <string name="Виза_китай" translatable="false">Чтобы получить визу в Китай, необходимо ответить на несколько вопросов. Вы готовы?</string>
+    <string name="Виза_сша" translatable="false">Чтобы получить визу в США, необходимо ответить на несколько вопросов. Вы готовы?</string>
+    <string name="Победа" translatable="false">Вы выиграли и теперь неизбежно начнёте игру заново. Пока!</string>
+    <string name="Ван_Гог" translatable="false">P.S. На картинке восьмое произведение Винсента ван Гога - \"Восень в восеннем саду\"</string>
+</resources>

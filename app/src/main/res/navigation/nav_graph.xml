@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fgPlay">
+    <fragment
+        android:id="@+id/fgPlay"
+        android:name="com.eastail.yellina.FgPlay"
+        android:label="fragment_fg_play"
+        tools:layout="@layout/fragment_fg_play">
+        <action
+            android:id="@+id/action_fgPlay_to_fgLocation"
+            app:destination="@id/fgLocation" />
+        <action
+            android:id="@+id/action_fgPlay_to_fgStore"
+            app:destination="@id/fgStore" />
+    </fragment>
+    <fragment
+        android:id="@+id/fgLocation"
+        android:name="com.eastail.yellina.FgLocation"
+        android:label="fragment_fg_location"
+        tools:layout="@layout/fragment_fg_location">
+        <action
+            android:id="@+id/action_fgLocation_to_fgStore"
+            app:destination="@id/fgStore" />
+        <action
+            android:id="@+id/action_fgLocation_to_fgPlay"
+            app:destination="@id/fgPlay" />
+    </fragment>
+    <fragment
+        android:id="@+id/fgStore"
+        android:name="com.eastail.yellina.FgStore"
+        android:label="fragment_fg_store"
+        tools:layout="@layout/fragment_fg_store">
+        <action
+            android:id="@+id/action_fgStore_to_fgLocation"
+            app:destination="@id/fgLocation" />
+        <action
+            android:id="@+id/action_fgStore_to_fgPlay"
+            app:destination="@id/fgPlay" />
+    </fragment>
+</navigation>
